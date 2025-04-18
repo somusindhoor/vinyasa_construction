@@ -4,7 +4,7 @@ import Dashboard from './Dashboard'; // Your existing Dashboard component
 
 function App() {
   return (
-    <Router>
+    <Router basename='vinyasa_construction'>
         {/* You can add a navbar or any other component here */}
         <Routes>
           {/* Define routes here */}
